@@ -85,4 +85,8 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-minimal
+# Install Minimal Mistakes theme
+
+
+
+remote_theme: mmistakes/minimal-mistakes
