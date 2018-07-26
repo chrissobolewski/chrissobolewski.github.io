@@ -320,6 +320,30 @@ aside{
   font-family: -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
 }
 
+header h1 span {
+    display: none;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+header h1 strong {
+    color: #1e6ce3;
+    font-weight: 900;
+}
+
+.site-description {
+  {
+    margin-left: 1em;
+    color: #90909f;
+    font-style: normal;
+    font-size: .8em;
+}
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
