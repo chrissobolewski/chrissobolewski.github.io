@@ -85,8 +85,3 @@ exclude:
   - README.md
   - CNAME
 
-# Install Minimal Mistakes theme
-
-
-
-remote_theme: mmistakes/minimal-mistakes
