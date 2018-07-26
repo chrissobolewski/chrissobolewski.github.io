@@ -283,6 +283,44 @@ footer {
   text-align: center;
 }
 
+
+// CS modifications
+
+header h1 a,
+header h1 a:visited{
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  color: #40404f;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 60px;
+  letter-spacing: 0.35em;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header cite,
+nav,
+footer,
+b,
+.centrelink,
+th,
+time,
+figcaption,
+.search input,
+.navigation,
+aside{
+  text-rendering: optimizeLegibility;
+  font-family: -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
