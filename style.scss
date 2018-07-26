@@ -298,36 +298,14 @@ header h1 a:visited {
   padding-right: 1em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header cite,
-nav,
-footer,
-b,
-.centrelink,
-th,
-time,
-figcaption,
-.search input,
-.navigation,
-aside{
+h1 {
   text-rendering: optimizeLegibility;
   font-family: -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-}
+  font-size: 18px;
+} 
 
 header h1 span {
     display: none;
-}
-
-header h1 {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
 }
 
 header h1 strong {
