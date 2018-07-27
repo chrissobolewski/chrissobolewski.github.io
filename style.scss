@@ -103,12 +103,12 @@ header h1 strong {
 nav {
   float: right;
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 10px;
   text-transform: uppercase;
   line-height: 60px;
-  letter-spacing: 0.35em;
   height: 60px;
   text-decoration: none;
+  display: inline-block;
   @include mobile {
     float: none;
     margin-top: 9px;
