@@ -64,10 +64,10 @@ a {
 header h1 a,
 header h1 a:visited {
   display: inline-block;
-  width: 175px;
+  width: 180px;
   height: 60px;
   color: #40404f;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   line-height: 60px;
   letter-spacing: 0.35em;
@@ -102,10 +102,13 @@ header h1 strong {
 
 nav {
   float: right;
-  margin-top: 23px; 
-  font-family: $helveticaNeue;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   font-size: 18px;
-
+  text-transform: uppercase;
+  line-height: 60px;
+  letter-spacing: 0.35em;
+  height: 60px;
+  text-decoration: none;
   @include mobile {
     float: none;
     margin-top: 9px;
