@@ -4,15 +4,22 @@
 //
 
 // Colors
-$blue: #4183C4;
-
-// Grays
+$blue: #0076FF;
+$lightBlue: #54C7FC;
 $black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
 $white: #fff;
+$grey: #8e8e93;
+$lightGrey: #eee;
+$mineshaft: #333;
+
+// Roles
+
+$primary: $black;
+$secondary: $blue;
+$accent: $lightBlue;
+
+$text: $mineshaft;
+$border: $grey;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
