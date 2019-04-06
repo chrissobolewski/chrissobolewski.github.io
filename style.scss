@@ -65,11 +65,9 @@ header h1 a,
 header h1 a:visited {
   display: inline-block;
   width: 180px;
-  height: 40px;
   color: #40404f;
   font-weight: 300;
   text-transform: uppercase;
-  line-height: 40px;
   letter-spacing: 0.35em;
   text-decoration: none;
 }
@@ -96,7 +94,7 @@ header h1 {
 
 .site-desc {
     color: $grey;
-    font-size: 0.8em;
+    font-size: 0.75em;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 300;
