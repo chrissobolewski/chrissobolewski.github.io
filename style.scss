@@ -63,8 +63,7 @@ a {
 
 header h1 a,
 header h1 a:visited {
-  display: inline-block;
-  width: 180px;
+  display: block;
   color: #40404f;
   font-weight: 300;
   text-transform: uppercase;
@@ -99,11 +98,10 @@ header h1 {
     font-style: normal;
     text-transform: uppercase;
     font-weight: 300;
-    display: inline-block;
+    display: block;
     height: 40px;
     text-align: center;
-    margin-top: -10px;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.45em;
 }
 
 nav {
