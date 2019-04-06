@@ -78,6 +78,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-family: $helveticaNeue;
   font-size: 18px;
+  text-align: center;
 }
 
 header h1 span {
@@ -93,11 +94,12 @@ header h1 strong {
     color: $grey;
     font-size: 0.8em;
     font-style: normal;
-    font-family: Cambria;
+    text-transform: uppercase;
     font-weight: 300;
     display: inline-block;
     width: 200px;
     height: 60px;
+    text-align: center;
 }
 
 nav {
