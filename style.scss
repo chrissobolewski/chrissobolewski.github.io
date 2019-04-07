@@ -49,10 +49,7 @@ h4 {
 
 p {
   margin: 15px 0;
-  font-size: 14pt;
-  @include mobile {
-    font-size: 9pt;
-  }
+  font-size: 12pt;
 }
 
 a {
