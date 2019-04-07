@@ -11,4 +11,4 @@ The Verge:
 <p>So now, it’s throwing out the baby with the bathwater and pulling the plug on AirPlay, period. “We can’t distinguish which device is which, we can’t actually certify the devices... so we’ve had to just shut down support for it,” a Netflix spokesperson says.</p>
 </blockquote>
 
-Petty. But Apple deserved it.
+Petty. But not like Apple is in any way better than that.
