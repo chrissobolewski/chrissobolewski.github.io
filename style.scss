@@ -149,6 +149,19 @@ blockquote {
   color: #8e8e93;
   margin-bottom: 40px;
 }
+
+.date:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+ left: 0.5em;
+ margin-right: -50%;
+}
+
 .hr-text {
   line-height: 1em;
   position: relative;
