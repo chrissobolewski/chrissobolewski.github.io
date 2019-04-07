@@ -11,12 +11,12 @@
 
 
 html {
-  font-size: 100%;
+  
 }
 
 body {
   background: $darkGrey;
-  font: 14px/1.4 $helvetica;
+  font: 14px $helvetica;
   color: $text;
 }
 
@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $primary;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  line-height: 1.2;
+  margin: 20px 0 15px;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.2;
   }
 }
 
@@ -73,7 +73,6 @@ header h1 a:visited {
 }
 
 h1 {
-  text-rendering: optimizeLegibility;
   font-family: $helveticaNeue;
   font-size: 24px;
   text-align: center;
@@ -88,13 +87,9 @@ header h1 strong {
     font-weight: 900;
 }
 
-header h1 {
-
-}
-
 .site-desc {
     color: $grey;
-    font-size: 0.5em;
+    font-size: 10px;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 300;
