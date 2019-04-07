@@ -157,30 +157,7 @@ blockquote {
  height: 1px;
  position: relative;
  vertical-align: middle;
- width: 50%;
+ width: auto;
  left: 0.5em;
  margin-right: -50%;
-}
-
-.hr-text {
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  border: 0;
-  color: black;
-  text-align: center;
-  height: 1.5em;
-  opacity: .5;
-  &:after {
-    content: attr(data-content);
-    position: relative;
-    display: inline-block;
-    color: black;
-
-    padding: 0 .5em;
-    line-height: 1.5em;
-    // this is really the only tricky part, you need to specify the background color of the container element...
-    color: #818078;
-    background-color: #fcfcfa;
-  }
 }
