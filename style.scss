@@ -150,8 +150,8 @@ blockquote {
   margin-bottom: 40px;
 }
 
-hr {
-  border-top: 1px solid $paleBlue;
-  width: 50px;
-  display: inline-block;
+.divider{
+  flex-grow:1;
+  height: 1px;
+  background-color: #9f9f9f;
 }
