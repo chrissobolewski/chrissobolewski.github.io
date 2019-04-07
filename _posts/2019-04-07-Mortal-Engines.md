@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mortal Engines
-tags: [movies]
+tags: movies
 excerpt_separator: <!--more-->
 ---
 
