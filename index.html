@@ -7,6 +7,7 @@ layout: default
     <article class="post">
 
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <div>It's about {{ post.tags}} </div>
 
       <div class="entry">
       {% if post.content contains site.excerpt_separator %}
