@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <h3>{% if page.link %}<a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h3>{% else %}{{ page.title }}{% endif %}
+  <h3>{% if page.link %}<a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a>{% else %}{{ page.title }}{% endif %}</h3>
 
   <div class="entry">
     {{ content }}
