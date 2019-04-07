@@ -3,14 +3,14 @@ layout: default
 ---
 
 <article class="post">
-  <h3>{% if page.link %}{{ page.title }} <span class="link-arrow">&rarr;</span></h3>{% else %}{{ page.title }}{% endif %}
+  <h3>{% if page.link %}<a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h3>{% else %}{{ page.title }}{% endif %}
 
   <div class="entry">
     {{ content }}
   </div>
 
   <div class="date">
-    {{ page.date | date: "%B %e, %Y" }}
+    <a href="{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>
   </div>
 
   {% include disqus.html %}
