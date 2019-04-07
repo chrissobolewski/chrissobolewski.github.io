@@ -19,5 +19,8 @@ layout: default
   {{ post.content }}</div>
 {% endif %}
     </article>
+    <div class="date">
+      { post.date | date: "%B %e, %Y" }}
+    </div>
   {% endfor %}
 </div>
