@@ -7,9 +7,10 @@ layout: default
     <article class="post">
 
       <h3>{% if post.link %}
-      	x
+      	<a href="{{ post.link }}">{{ post.title }} <span class="link-arrow">&rarr;</span></a>
       {% else %}
-      	y{% endif %}</h3>
+      	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}</h3>
       <div class="entry">
       {% if post.content contains site.excerpt_separator %}
   {{ post.excerpt }}</div>
