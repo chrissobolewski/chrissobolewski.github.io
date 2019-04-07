@@ -5,7 +5,7 @@
 // IMPORTS
 //
 
-// @import "reset";
+@import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-  //font-size: 20px !important;
+  font-size: 24px !important;
 }
 
 h4 {
@@ -62,7 +62,9 @@ a {
 // CS modifications
 
 header h1 a,
-header h1 a:visited {
+header h1 a:visited,
+header h3 a,
+header h3 a:visited  {
   display: block;
   color: #40404f;
   font-weight: 300;
