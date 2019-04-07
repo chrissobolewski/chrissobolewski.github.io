@@ -16,7 +16,7 @@ html {
 
 body {
   background: $darkGrey;
-  font: 14px/1.4 $helvetica;
+  font: 14px $helvetica;
   color: $text;
 }
 
@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $primary;
   font-weight: bold;
 
-  line-height: 1.7;
+  line-height: 1.7em;
   margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.7em;
   }
 }
 
@@ -48,7 +48,6 @@ h4 {
 
 p {
   margin: 15px 0;
-  font-size: 14px;
 }
 
 a {
