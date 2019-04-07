@@ -20,7 +20,7 @@ layout: default
 {% endif %}
     </article>
     <div class="date">
-      { post.date | date: "%B %e, %Y" }}
+      <a href="{{ post.link }}">{{{ post.date | date: "%B %e, %Y" }}</a>
     </div>
   {% endfor %}
 </div>
