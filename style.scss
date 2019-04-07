@@ -68,7 +68,7 @@ header h1 a:visited,
 header h3 a,
 header h3 a:visited  {
   display: block;
-  color: #40404f;
+  color: $paleBlue;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.35em;
@@ -148,4 +148,9 @@ blockquote {
   font-size: 0.9em;
   color: #8e8e93;
   margin-bottom: 40px;
+}
+
+hr {
+  border-top: 1px solid $paleBlue;
+  width: 50px;
 }
