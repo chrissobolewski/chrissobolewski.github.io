@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mortal Engines
-tags: movies
+tags: [movies]
 ---
 
 **All FX, no substance.** 
