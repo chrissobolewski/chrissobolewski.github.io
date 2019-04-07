@@ -9,7 +9,7 @@ layout: default
       <h3>{% if post.link %}
       	x
       {% else %}
-      	y</h3>
+      	y{% endif %}</h3>
       <div class="entry">
       {% if post.content contains site.excerpt_separator %}
   {{ post.excerpt }}</div>
