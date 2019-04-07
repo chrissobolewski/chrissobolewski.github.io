@@ -152,12 +152,13 @@ blockquote {
 
 .date:after {
  background-color: #333;
+ background: linear-gradient(to right, transparent, #818078, transparent);
  content: "";
  display: inline-block;
  height: 1px;
  position: relative;
  vertical-align: middle;
- width: 100%;
+ width: 50%;
  left: 0.5em;
  margin-right: -50%;
 }
