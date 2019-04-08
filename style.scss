@@ -6,8 +6,37 @@
 //
 
 @import "reset";
-@import "variables";
 // Syntax highlighting @import is at the bottom of this file
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #8e9fbb;
+$grey: #8e8e93;
+$darkGrey: #262526;
+$ghostWhite: #f4f6f6;
+$medGrey: #597884;
+$paleBlue: #40404f;
+
+// Roles
+$primary: $blue;
+$secondary: $medGrey;
+$text: $ghostWhite;
+
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
 
 
 html {
