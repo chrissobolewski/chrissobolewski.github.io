@@ -137,7 +137,6 @@ nav {
   font-size: 10pt;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-block;
   text-align: center;
   margin: 0 auto;
   max-width: 50em;
@@ -195,7 +194,7 @@ blockquote {
  margin-right: -50%;
 }
 
-.logo {
-  height: 32px;
-  widht: 32px;
+img.logo {
+  height: 50%;
+  widht: 50%;
 }
