@@ -141,7 +141,6 @@ nav {
   margin-bottom: 40px;
   max-width: 50em;
   width:100%;
-  letter-spacing: 0.43em;
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -194,6 +193,19 @@ blockquote {
  width: 75%;
  left: 0.5em;
  margin-right: -50%;
+}
+
+nav:before {
+ background-color: #333;
+ background: linear-gradient(to right, transparent, #818078);
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 75%;
+ left: 0.5em;
+ margin-left: -50%;
 }
 
 img.logo {
