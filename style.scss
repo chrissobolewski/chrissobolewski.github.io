@@ -127,7 +127,6 @@ header h1 strong {
     text-transform: uppercase;
     font-weight: 300;
     display: block;
-    height: 40px;
     text-align: center;
     letter-spacing: 0.43em;
 }
@@ -139,6 +138,7 @@ nav {
   text-decoration: none;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 40px;
   max-width: 50em;
   width:100%;
   @include mobile {
@@ -146,6 +146,7 @@ nav {
     margin-top: 9px;
     display: block;
     font-size: 16px;
+    vertical-align: middle;
   }
 }
 
@@ -195,6 +196,8 @@ blockquote {
 }
 
 img.logo {
-  height: 50%;
-  widht: 50%;
+  height: 24px;
+  width: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
