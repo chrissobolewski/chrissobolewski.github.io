@@ -140,6 +140,7 @@ nav {
   margin: 0 auto;
   margin-bottom: 40px;
   max-width: 50em;
+  letter-spacing: 0.1em;
   width:100%;
   @include mobile {
     float: none;
@@ -204,7 +205,7 @@ nav:before {
  position: relative;
  vertical-align: middle;
  width: 75%;
- left: 0.5em;
+ right: 0.5em;
  margin-left: -50%;
 }
 
