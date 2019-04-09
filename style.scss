@@ -139,6 +139,9 @@ nav {
   text-decoration: none;
   display: inline-block;
   text-align: center;
+  margin: 0 auto;
+  max-width: 50em;
+  width:100%;
   @include mobile {
     float: none;
     margin-top: 9px;
