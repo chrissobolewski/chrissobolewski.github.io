@@ -183,7 +183,7 @@ blockquote {
   margin-bottom: 40px;
 }
 
-.date:after {
+.date:after, nav:after {
  background-color: #333;
  background: linear-gradient(to right, #818078, transparent);
  content: "";
