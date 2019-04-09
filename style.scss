@@ -133,14 +133,12 @@ header h1 strong {
 }
 
 nav {
-  float: right;
   font-family: $helvetica;
-  font-size: 12px;
+  font-size: 10pt;
   text-transform: uppercase;
-  line-height: 60px;
-  height: 60px;
   text-decoration: none;
   display: inline-block;
+  text-align: center;
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -192,4 +190,9 @@ blockquote {
  width: 75%;
  left: 0.5em;
  margin-right: -50%;
+}
+
+.logo {
+  height: 32px;
+  widht: 32px;
 }
