@@ -13,15 +13,22 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script>
+    function toggleDarkLight() {
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+}
+    </script>
   </head>
 
-  <body>
+  <body class="dark-mode">
     <div class="container">
       <div>
         <header>
             <h1>
               <a href="{{ site.baseurl }}/">Quick<span>&nbsp;</span><strong>Coffee</strong></a><span class="site-desc">with Chris Sobolewski</span>
-            </h1>
+            </h1><a href="" onclick="toggleDarkLight()">dark/light</a>
         </header>
       </div>
     </div>

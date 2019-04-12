@@ -25,6 +25,8 @@ $primary: $blue;
 $secondary: $medGrey;
 $text: $ghostWhite;
 
+$text-light: #555;
+
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
@@ -39,12 +41,14 @@ $georgia: Georgia, serif;
 }
 
 
-html {
-
+body.dark-mode {
+  background: $darkGrey;
+  font: 12pt $helvetica;
+  color: $text;
 }
 
-body {
-  background: $darkGrey;
+body.light-mode {
+  background: $ghostWhite;
   font: 12pt $helvetica;
   color: $text;
 }
