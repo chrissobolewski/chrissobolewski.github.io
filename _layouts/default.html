@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
+  </head>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   <body class="dark-mode">
     <div class="container">
@@ -38,13 +38,12 @@
 
     {% include analytics.html %}
     <script>
-    function toggleDarkLight() {
-  var body = document.getElementById("body");
-  var currentClass = body.className;
-  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-  document.cookie = "mode";
+      function toggleDarkLight() {
+      var body = document.getElementById("body");
+      var currentClass = body.className;
+      body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+      document.cookie = "mode";
 }
     </script>
-  </head>
   </body>
 </html>
