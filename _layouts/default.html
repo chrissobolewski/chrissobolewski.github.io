@@ -38,7 +38,7 @@ return "";
 function checkCookie() {
 var user=getCookie("mode");
 if (user != "") {
-  alert("default mode " + user);
+  document.getElementById("body").className = user;
 } else {
      setCookie("mode", "dark-mode", 30);
 
