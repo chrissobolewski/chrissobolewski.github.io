@@ -2,6 +2,7 @@
 layout: post
 title: Netflix won't support AirPlay anymore
 link: https://www.theverge.com/platform/amp/2019/4/6/18298146/netflix-confirms-it-yanked-airplay-support-wont-let-you-beam-shows-to-apple-tvs-anymore
+category: link
 ---
 The Verge:
 
