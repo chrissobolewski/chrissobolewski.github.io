@@ -8,7 +8,7 @@ Subscribe to the main feed - it includes every post published here: <a href="htt
 
 If you're interested in specific types of content, I got you covered:
 
-Features feed - only the long-form, "feature" posts: <a href="https://quickcoffee.net/feeds/features.xml">https://quickcoffee.net/feeds/features.xml</a>
+Features feed - only the long-form, "feature" posts. Less frequent, more thoughtful: <a href="https://quickcoffee.net/feeds/features.xml">https://quickcoffee.net/feeds/features.xml</a>
 
 Link posts feed - short commentary on tech news and such: <a href="https://quickcoffee.net/feeds/links.xml">https://quickcoffee.net/feeds/links.xml</a>
 
