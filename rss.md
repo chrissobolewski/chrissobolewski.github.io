@@ -15,5 +15,5 @@ Features feed - only the long-form, "feature" posts. Less frequent, more thought
 Link posts feed - short commentary on tech news and such:
 <a href="https://quickcoffee.net/feeds/links.xml">https://quickcoffee.net/feeds/links.xml</a>
 
-Photos feed - my photos I post here once in a while (like Instagram, but better):
+Photos feed - my photos. Like Instagram, but better:
 <a href="https://quickcoffee.net/feeds/photos.xml">https://quickcoffee.net/feeds/photos.xml</a>
