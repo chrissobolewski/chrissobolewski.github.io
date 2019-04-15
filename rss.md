@@ -4,11 +4,11 @@ title: RSS Feeds
 permalink: /rss/
 ---
 
-<h3>Main feed</h3>
+<h5>Main feed</h5>
 Subscribe to the main feed - it includes every post published here:<br/>
 <a href="https://quickcoffee.net/feeds/feed.xml">https://quickcoffee.net/feeds/feed.xml</a>
 
-<h3>Ancillary feeds</h3>
+<h5>Ancillary feeds</h5>
 If you're interested in specific types of content, I got you covered:
 
 Features feed - only the long-form, "feature" posts. Less frequent, more thoughtful:<br/>
@@ -20,5 +20,5 @@ Link posts feed - short commentary on tech news and such:<br/>
 Photos feed - my photos. Like Instagram, but better:<br/>
 <a href="https://quickcoffee.net/feeds/photos.xml">https://quickcoffee.net/feeds/photos.xml</a>
 
-<h3>Twitter</h3>
+<h5>Twitter</h5>
 Follow <a href="https://twitter.com/quickcoffeenet">Quick Coffee on Twitter</a>.
