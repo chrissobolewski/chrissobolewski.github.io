@@ -6,9 +6,9 @@ permalink: /privacy/
 
 *Effective date: 12 April 2019*
 
-This page informs you of my policies regarding the collection, use, and disclosure of personal data when you use this website and the choices you have associated with that data.
+Quick Coffee ("website", "page", "webpage") informs you of my policies regarding the collection, use, and disclosure of personal data when you use this website and the choices you have associated with that data.
 ​
-Any data is used only for security, performance, and readability improvements as well as analytics.
+Any data is used only for security, performance, and readability improvements as well as monitoring the usage of the website.
 
 By using this website, you agree to the collection and use of information in accordance with this policy.
 
@@ -28,7 +28,10 @@ Newsletter is entirely optional.
 This website uses cookies - writes and reads a cookie file to remember your viewing preferences (dark or light mode) for 30 days.
 
 ##### Google Analytics
-Quick Coffee collects website traffic statistics through Google Analytics. All data is anonymized.
+Quick Coffee collects website traffic statistics through Google Analytics.
+
+Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
+
 [GA's terms of service are available here](https://www.google.com/analytics/terms/us.html).
 
 ##### Links to other sites
@@ -39,7 +42,7 @@ My page does not address anyone under the age of 13 ("Children").
 ​
 I do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your Children have provided me with Personal Data, please contact me. If I become aware that I have collected Personal Data from Children without verification of parental consent, I take steps to remove that information.
 
-##### Location of data
+##### Transfer of data
 By visiting this website you authorize me to collect, use, and store your information outside of the European Union.
 
 Information may be processed, stored, and used outside of the country in which you are located. Data privacy laws vary across jurisdictions, and different laws may be applicable to your data depending on where it is processed, stored, or used.
