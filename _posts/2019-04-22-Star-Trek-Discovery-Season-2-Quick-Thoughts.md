@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Thoughts on Star Trek: Discovery Season 2
-sharing:
-  twitter: My quick thoughts on Star Trek: Discovery season 2. Spoiler-free.
 category: feature
 ---
 
