@@ -2,6 +2,8 @@
 layout: post
 title: Thoughts on Star Trek Discovery Season 2
 category: feature
+sharing:
+    twitter: My quick thoughts on the second season of Star Trek Discovery (spoiler/free)
 ---
 
 Most, if not all, Star Trek series struggled in their first seasons. TNG picked up steam season 2 and onwards, DS9 was famously dubbed Deep Sleep Nine for the first two or even three seasons. Voyager found its stride only after they introduced the Borg to the series (but that came with its own set of issues). And as far as I'm concerned, Enterprise struggled all the way until eventual cancellation.[^1]
