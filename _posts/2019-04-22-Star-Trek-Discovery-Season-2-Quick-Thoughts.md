@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts on Star Trek: Discovery Season 2
+title: Thoughts on Star Trek Discovery Season 2
 category: feature
 ---
 
