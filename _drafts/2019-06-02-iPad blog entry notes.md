@@ -1,3 +1,10 @@
+---
+layout: post
+title:
+category: feature
+sharing:
+    twitter:
+---
 
 Let’s get this out of the way first. This is not an iPad blog. There will be iPad-related entries here (this is one of them), sure, but I plan to cover a much wider array of topics in general. So probably, this is not the best introduction to Quick Coffee. 
 
@@ -7,7 +14,7 @@ See, I use iPad quite often. I’m not iPad-only, by any means. Far from that. B
 
 I have fun on the iPad. And by that - I don’t only mean *entertainment*, as such. Even though, iPad used to be (and by many, it is still) considered a content consumption device, first and foremost. But apart from that, I have fun by writing on the iPad. By trying out new apps and experimenting with new setups. By programming - if you can call it that - simple and less-simple workflows in the Shortcuts app. 
 
-But then, it’s easy to dismiss all those elaborate scripts and workflows as futile attempts at making iPad more like a traditional laptop.
+But then, [it’s easy to dismiss](https://www.nubero.ch/blog/005/) all those elaborate scripts and workflows as futile attempts at making iPad more like a traditional laptop.
 
 But I don’t think it’s the case here. I don’t want a laptop. 
 
@@ -19,5 +26,5 @@ But the iPad - it’s the the device I go to when I want some time to myself. Wh
 
 And I want more of it. I want to spend more time with it. I am perfectly aware that it can’t do many things my computer can with ease. But I will push it. I will try to bend it to my will. Not without effort.
 
-I will build elaborate shortcuts to perform seemingly easy things, such as downloading files, even at the risk of looking silly. Because it will allow me to spend more time on the device I like. And less time on devices that scream “work!” or “look at me!”
+I will build elaborate shortcuts to perform seemingly easy things, such as downloading files, even [at the risk of looking silly](https://twitter.com/OhMDee/status/1130992230901043200). Because it will allow me to spend more time on the device I like. And less time on devices that scream “work!” or “look at me!”
 
