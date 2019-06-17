@@ -18,10 +18,10 @@ But then, [it’s easy to dismiss](https://www.nubero.ch/blog/005/) all those el
 
 But I don’t think it’s the case here. I don’t want a laptop. I want a device that adapts to me. 
 
-* Taking notes - use a stylus
-* Writing a blog post - use a keyboard
-* Watching a movie in bed - detach the keyboard
-* Going through my to-do list - tap the screen, use gestures
+- Taking notes - use a stylus
+- Writing a blog post - use a keyboard
+- Watching a movie in bed - detach the keyboard
+- Going through my to-do list - tap the screen, use gestures
 
 iPad is by far the computing device that gives me most joy. Computer - whether it’s my Windows PC at work or iMac at home - is for work. It’s for heavy lifting. It’s not a *pick up when I feel like it* device. Sometimes, it almost feels like I have to make an appointment with my iMac to use it. I need to be in a special state of mind. "Now I’m using the computer" mode.
 
