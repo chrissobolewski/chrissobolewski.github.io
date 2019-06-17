@@ -32,4 +32,3 @@ But the iPad - it’s the the device I go to when I want some time for myself. W
 And I want more of it. I want to spend more time with it. I am perfectly aware that it can’t do many things my computer can with ease. But I will push it. I will try to bend it to my will. Not without effort.
 
 I will build elaborate shortcuts to perform seemingly easy things, such as downloading files, even [at the risk of looking silly](https://twitter.com/OhMDee/status/1130992230901043200). Because it will allow me to spend more time on the device I like. And less time on devices that scream "work!" or "look at me!"
-
