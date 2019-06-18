@@ -11,6 +11,8 @@ description: with Chris Sobolewski
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar:
 
+remote_theme: aspirethemes/type
+
 #
 # Flags below are optional
 #
