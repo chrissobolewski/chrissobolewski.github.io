@@ -88,5 +88,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-remote_theme: aspirethemes/type
