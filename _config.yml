@@ -11,9 +11,9 @@ email:       'chris@quickcoffee.net'
 description: 'with Chris Sobolewski'
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://quickcoffee.net/' # The base hostname & protocol for your site
-twitter:     'ksobny'
-github:      'chrissobolewski'
-instagram:   'ksobny'
+twitter:     ''
+github:      ''
+instagram:   ''
 facebook:    ''
 
 markdown:  kramdown
