@@ -2,16 +2,36 @@
 layout: default
 ---
 
-<article class="post">
-  <h3>{% if page.link %}<a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a>{% else %}{{ page.title }}{% endif %}</h3>
+{% include base_path %}
 
-  <div class="entry">
-    {{ content }}
+{% if page.image %}
+  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+{% endif %}
+
+<div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
+
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+
+        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
+
+        <div class='c-content' itemprop='articleBody'>
+          {% include page-image.html %}
+
+          {{ content }}
+        </div>
+
+        <div class='c-tags'>
+          {% for tag in page.tags %}
+            <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+          {% endfor %}
+        </div>
+
+      </article>
+
+    </div>
   </div>
-
-  <div class="date">
-    <a href="{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>
-  </div>
-
-  {% include disqus.html %}
-</article>
+</div>

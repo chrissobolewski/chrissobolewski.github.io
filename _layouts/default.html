@@ -1,90 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+<html lang='en'>
 
-    {% include meta.html %}
+{% include head.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<body>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-<script>
-function setCookie(cname,cvalue,exdays) {
-  var d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  var expires = "expires=" + d.toGMTString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
+  {% include analytics.html %}
 
-function getCookie(cname) {
-var name = cname + "=";
-var decodedCookie = decodeURIComponent(document.cookie);
-var ca = decodedCookie.split(';');
-for(var i = 0; i < ca.length; i++) {
-  var c = ca[i];
-  while (c.charAt(0) == ' ') {
-    c = c.substring(1);
-  }
-  if (c.indexOf(name) == 0) {
-    return c.substring(name.length, c.length);
-  }
-}
-return "";
-}
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    {% include header.html %}
 
-function checkCookie() {
-var user=getCookie("mode");
-if (user != "") {
-  document.getElementById("body").className = user;
-} else {
-     setCookie("mode", "dark-mode", 30);
+    {{ content }}
 
-}
-}
+    {% include footer.html %}
+  </div>
 
-</script>
+  <script src="{{ '/js/jquery-3.1.1.min.js' | prepend: site.baseurl }}"> </script>
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">   </script>
+  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}">   </script>
+  <script src="{{ '/js/app.js' | prepend: site.baseurl }}">              </script>
+</body>
 
-
-  </head>
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  <body class="dark-mode" id="body" onload="checkCookie()">
-    <div class="container">
-      <div>
-        <header>
-            <h1>
-              <a href="{{ site.baseurl }}/">Quick<span>&nbsp;</span><strong>Coffee</strong></a><span class="site-desc">with Chris Sobolewski</span>
-            </h1><button onclick="toggleDarkLight()">dark/light</button>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-          &copy; Chris Sobolewski 2019&mdash;
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-    <script>
-      function toggleDarkLight() {
-      var body = document.getElementById("body");
-      var currentClass = body.className;
-      body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-      var d = new Date();
-      d.setTime(d.getTime() + (30 * 24 * 60 * 60 * 1000));
-      var expires = "expires="+d.toUTCString();
-      document.cookie = "mode" + "=" + body.className + ";" + expires + ";path=/";
-    }
-    </script>
-  </body>
 </html>
