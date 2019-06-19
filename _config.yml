@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Type
-email:       ''
-description: ''
+title:       Quick Coffee
+email:       'chris@quickcoffee.net'
+description: 'with Chris Sobolewski'
 baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
-twitter:     ''
-github:      ''
-instagram:   ''
+url:         'https://quickcoffee.net/' # The base hostname & protocol for your site
+twitter:     'ksobny'
+github:      'chrissobolewski'
+instagram:   'ksobny'
 facebook:    ''
 
 markdown:  kramdown
