@@ -1,4 +1,6 @@
+# Welcome to Jekyll!
 #
+<<<<<<< HEAD
 # This file contains configuration flags to customize your site
 #
 
@@ -38,55 +40,59 @@ disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-30671060-2
+=======
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: https://chrissobolewski.github.io
+# Site settings
+title:       Quick Coffee
+email:       ''
+description: 'with Chris Sobolewski'
+baseurl:     '' # The subpath of your site, e.g. /blog
+url:         'https://quickcoffee.net/' # The base hostname & protocol for your site
+twitter:     'https://twitter.com/ksobny'
+github:      ''
+instagram:   ''
+facebook:    ''
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+markdown:  kramdown
+permalink: pretty
+paginate:  60
+>>>>>>> 82db8db4a922c30010a6696e2ff0c53803631c07
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-excerpt_separator: <!--more-->
-paginate: 7
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: compressed
 
-# Use the following plug-ins
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate
+  - jekyll/tagging
 
-# Exclude these files from your production _site
+include:
+  - _pages
+
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
+<<<<<<< HEAD
   - LICENSE
   - README.md
   - CNAME
 
   # test 22
+=======
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+>>>>>>> 82db8db4a922c30010a6696e2ff0c53803631c07
