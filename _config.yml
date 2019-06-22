@@ -1,46 +1,5 @@
 # Welcome to Jekyll!
 #
-<<<<<<< HEAD
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
-name: Quick Coffee
-
-# Short bio or description (displayed in the header)
-description: with Chris Sobolewski
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar:
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: 
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: ksobny
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-30671060-2
-=======
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -51,7 +10,7 @@ title:       Quick Coffee
 email:       ''
 description: 'with Chris Sobolewski'
 baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://quickcoffee.net/' # The base hostname & protocol for your site
+url:         'https://quickcoffee.net' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/ksobny'
 github:      ''
 instagram:   ''
@@ -60,7 +19,6 @@ facebook:    ''
 markdown:  kramdown
 permalink: pretty
 paginate:  60
->>>>>>> 82db8db4a922c30010a6696e2ff0c53803631c07
 
 sass:
   style: compressed
@@ -76,13 +34,6 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-<<<<<<< HEAD
-  - LICENSE
-  - README.md
-  - CNAME
-
-  # test 22
-=======
 
 # Tags
 tag_page_dir:         tag
@@ -95,4 +46,3 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
->>>>>>> 82db8db4a922c30010a6696e2ff0c53803631c07
