@@ -24,4 +24,4 @@ I don't know about you, but I can't wait.
 
 --
 
-[^1]: 1: Honestly, not sure about The Original Series, but would assume season one wasn't great either.
+[^1]: Honestly, not sure about The Original Series, but would assume season one wasn't great either.
