@@ -16,7 +16,7 @@ See, I use iPad quite often. I’m not iPad-only by any means. Far from that. Bu
 
 But then, [it’s easy to dismiss](https://www.nubero.ch/blog/005/) all those elaborate scripts and workflows as futile attempts at making iPad more like a traditional laptop.
 
-But I don’t think it’s the case here. I don’t want a laptop. I want a device that adapts to me. 
+But I don’t think it’s the case here. I don’t want a laptop (OK, fine, [I do](https://quickcoffee.net/The-Lust-for-a-New-Device-as-an-Excuse-for-Not-Being-Creative.html)). I want a device that adapts to me. 
 
 - Taking notes - use a stylus
 - Writing a blog post - use a keyboard
