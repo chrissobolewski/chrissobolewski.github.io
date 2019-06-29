@@ -26,7 +26,7 @@ Though, I wonder. What will be my next excuse? What new device will I desire nex
 
 Thing is, I *can* use what I already have to write. I used to write, edit, and publish blog posts out of my iPhone for god’s sake. It’s just... have I become too spoiled? Everything needs to fit just perfectly and even a smallest compromise will push me toward a search for an incrementally better device.
 
-![iPhone 6S Plus with Microsoft Foldable Keyboard](7870bd45459d3640da5dc606585be65c.jpeg)
+![iPhone 6S Plus with Microsoft Foldable Keyboard](/7870bd45459d3640da5dc606585be65c.jpeg)
 
 Sadly, I have the same thing with photography. Currently, my excuse is that I *need* a full-frame camera in order to take good pictures.
 
