@@ -7,11 +7,11 @@
 
 # Site settings
 title:       Quick Coffee
-email:       'chris@quickcoffee.net'
+email:       ''
 description: 'with Chris Sobolewski'
 baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://quickcoffee.net/' # The base hostname & protocol for your site
-twitter:     ''
+url:         'https://quickcoffee.net' # The base hostname & protocol for your site
+twitter:     'https://twitter.com/ksobny'
 github:      ''
 instagram:   ''
 facebook:    ''
