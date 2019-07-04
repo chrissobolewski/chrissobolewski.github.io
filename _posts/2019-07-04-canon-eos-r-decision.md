@@ -12,7 +12,7 @@ Starting with some background — just so you know what kind of photographer (I 
 
 My history with photography begins with an old **Zenit SLR** I found in my parents’ attic. 
 
-It's years before the digital age. I take black & white pictures exclusively, I develop films on my own, and even prints on a few occasions. I get hooked. I fall in love with Kodak Tri-X. After a few months I move to Canon A-1 (to this day I believe this is the best camera I’ve ever owned), and then to Canon T-90 (the pinnacle of Canon’s analog FD system).  
+It's years before the digital age. I take black & white pictures exclusively, I develop films on my own, and even prints on a few occasions. I get hooked. I fall in love with **Kodak Tri-X**. After a few months I move to **Canon A-1** (to this day I believe this is the best camera I’ve ever owned), and then to **Canon T-90** (the pinnacle of Canon’s analog FD system).  
 
 By that time my friends were already using digital cameras. Me? — I didn’t jump onto the digital imaging bandwagon until very late. Unusually for an early adopter — I waited. I remained loyal to the “old ways”. A full-time analog snob, that’s who I was in the early 2000's.
 
