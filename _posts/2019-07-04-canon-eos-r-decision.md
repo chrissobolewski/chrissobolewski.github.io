@@ -73,7 +73,7 @@ It also feels weird not to have an on/off switch next to the shutter trigger.
 
 ### One last consideration
 
-It's important to disclose that I got a really good deal on EOS R. I bought the body at ~25% below the market price Canon asks for it. I do believe that **at this specs, EOS R offers too little to justify its original price point**.
+It's important to disclose that I got a really good deal on EOS R. I bought the body at ~25% below the market price Canon asks for it. And the lens with a significant discount as well. I do believe that **at this specs, EOS R offers too little to justify its original price point**.
 
 ### Alternatives that I seriously considered (and why I didn't choose them)
 
