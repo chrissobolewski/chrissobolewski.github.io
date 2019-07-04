@@ -28,10 +28,6 @@ Thing is, I *can* use what I already have to write. I used to write, edit, and p
 
 ![iPhone 6S Plus with Microsoft Foldable Keyboard](https://quickcoffee.net/images/posts/7870bd45459d3640da5dc606585be65c.jpeg)
 
-Sadly, I have the same thing with photography. Currently, my excuse is that I *need* a full-frame camera in order to take good pictures.
-
-This is terrible decision-making. It’s excessive consumerism that’s against my values. And bad for my wallet.
-
 How can I stop myself from wanting?
 
 *Written, edited on, and published from iPad Pro 10.5”.*
