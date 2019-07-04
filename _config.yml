@@ -35,6 +35,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+permalink: /:title:output_ext
+
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag_page
