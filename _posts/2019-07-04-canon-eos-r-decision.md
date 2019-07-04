@@ -81,7 +81,7 @@ There were two alternative cameras (even more so: entire camera systems) that I 
 
 I took Sony out of the equation from the very start. I've been using Sony NEX-7 for 7 years now and I'm really tired of Sony's approach to ergonomics, menus, and the overall user experience. Also, even though I know this is a minor consideration, I don't like it's looks. Or the fact that everyone's using it. 
 
-Next, Nikon. It was so hard to decide against choosing it. Agonizing, even! I stuggled up to the very end. I tried the Z6 at the store and it just did't feel right. Even though it has the focus point joystick and the button layout seems well thought out. I just didn't _connect_ with this camera on the same level I did with the Canon.
+Next, Nikon. It was so hard to decide against choosing it. Agonizing, even! I struggled up to the very end. I tried the Z6 at the store and it just didn't feel right. Even though it has the focus point joystick and the button layout seems well thought out. I just didn't _connect_ with this camera on the same level I did with the Canon.
 
 Some reviews say the images from Z6 come out a bit sharper than the EOS R’s. There’s also supposedly less noise in higher ISOs. But does it matter to me? I’m not going to print out my pictures in large format. I'm no pixel-peeper. I need nice pictures that please _me_ and that I can share over the social media or (at best) as large JPGs on this blog or in a Lightroom album. That's it.
 
