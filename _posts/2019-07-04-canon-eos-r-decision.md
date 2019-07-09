@@ -93,4 +93,4 @@ I mean, if you look at the specs and nothing else, A7 III and even Z6 beat EOS R
 
 In the end, all those cameras are good, all perfectly capable of producing high quality images. So it’s ultimately about what camera you're drawn to. And I felt the most pull from EOS R.
 
-Now, I need to create more opportunities to use it. I hope to follow up here on whether this was ultimately good or bad purchase decision for me.
+Now, I need to create more opportunities to use it. After all, I don't have [my favorite excuse anymore](https://quickcoffee.net/The-Lust-for-a-New-Device-as-an-Excuse-for-Not-Being-Creative.html).
