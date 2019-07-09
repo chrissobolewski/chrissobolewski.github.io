@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why I purchased the Canon EOS R?
+title: Why did I purchase the Canon EOS R?
 category: feature
 sharing:
     twitter: Why I purchased the Canon EOS R?
