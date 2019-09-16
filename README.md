@@ -1,227 +1,106 @@
-# Type
+<h1 align="center">
+  <br>
+  <img src="/images/reverie-text.png" alt="Reverie" width="200"/>
+  <br>
+  <p align="center">
+  <a href="https://ko-fi.com/Y8Y2QC9Y"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" width="200"/></a>
+  </p>
+</h1>
 
-Minimal and Clean Jekyll Theme.
+Reverie is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for my blog.
 
----
+> [Theme demo](https://www.amitmerchant.com/reverie/introducing-reverie-jekyll-theme/)
 
-* [Configurations](#configurations)
-* [Deployment](#deployment)
-* [Posts](#posts)
-* [Pages](#pages)
-* [Navigation](#navigation)
-* [Disqus Comments](#disqus-comments)
-* [Google Analytics](#google-analytics)
-* [Social Media Links](#social-media-links)
-* [Update favicon](#update-favicon)
+This is a plug-and-play Jekyll theme best suited to use on [GitHub Pages](https://pages.github.com) without even setting up a local environment.
 
----
+![](/images/reverie-demo.png)
 
-### Configurations
+|  Responsiveness            |  Search | Categories |
+|---------------------|----------------------|----------------------|
+|![Responsiveness](/images/mobile-demo.png) | ![search](/images/search.png) | ![categories](/images/categories.png) |
 
-Maxima theme comes with different customizations in the `_config.yml` file:
+## Features overview
 
-```sh
-title:       Type
-email:       ''
-description: ''
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         '' # The base hostname & protocol for your site
-twitter:     ''
-github:      ''
-instagram:   ''
-facebook:    ''
+- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
+- Fully responsive and mobile optimized base theme
+- Sass/Coffeescript support using Jekyll 2.0
+- Free hosting on your GitHub Pages user site
+- All the SEO goodies comes in-built
+- Markdown blogging
+- Syntax highlighting using Pygments
+    - [Dracula syntax theme](https://draculatheme.com/) included
+- Disqus commenting
+- Google Analytics integration
+- Fuzzy search across blog posts
+- Pagination of posts works out-of-the-box.
+- Categorize posts out-of-the box
+- RSS Feed
+- In-built sitemap
 
-markdown:  kramdown
-permalink: pretty
-paginate:  60
+> <p><i>Like this theme?</i> Become a patreon to support my opensource work <p>
+> <a href="https://www.patreon.com/amitmerchant"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160"></a>
 
-sass:
-  style: compressed
+## Using Reverie on GitHub Pages
 
-gems:
-  - jekyll-paginate
-  - jekyll/tagging
+### 1. Fork Reverie to your User Repository
 
-include:
-  - _pages
+Fork this repository, then rename the repository to `yourgithubusername.github.io`.
 
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+Alternatively, you can use [`Use this template`](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
 
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2.
 
-# Pages path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
+### 2. Customize and view your site
+
+Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
+
+Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
+
+### 3. Publish your first blog post
+
+Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
+
+> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+
+## Using Categories in Reverie
+
+You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
+
+For adding single category:
+
+```md
+categories: JavaScript
 ```
 
----
+For adding multiple categories:
 
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
----
-
-### Posts
-
-To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
-
-The following is a post file with different configurations you can add as example:
-
-```sh
----
-layout: post
-title: Welcome to Jekyll!
-featured: true
-tags: [frontpage, jekyll, blog]
-image: '/images/welcome.jpg'
----
+```md
+categories: [PHP, Laravel]
 ```
 
-You can set the author, featured or not, tags, and the post image.
+The categorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
 
-The `featured` key is to mark the post as a featured post, this will add a simple star icon (☆) to the post card.
+## Pagination
 
-To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
+Pagination of posts in Reverie works out-of-the-box. You only need to specify number of posts you want on a single page in `_config.yml` and Reverie will take care of the rest.
 
-To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
-
-For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
-
-Note that tags are not working with GitHub Pages, that's because the used [jekyll-tagging
-](https://github.com/pattex/jekyll-tagging) plugin is not [whitelisted](https://pages.github.com/versions/) by GitHub.
-
-To make this work, I use [Netlify.com](https://www.netlify.com/) for deployment.
-
----
-
-### Pages
-
-To create a new page, just create a new markdown file inside the `_pages` directory.
-
-The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
-
-```sh
----
-layout: page
-title: About
-image: '/images/pages/about.jpeg'
----
+```yml
+paginate: 6
 ```
 
-Things you can change are: `title` and `image` path.
+## RSS
 
----
+The generated [RSS feed](https://en.wikipedia.org/wiki/RSS) of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://www.amitmerchant.com/reverie/feed.xml).
 
-### Navigation
+## Sitemap
 
-The navigation on the sidebar will automatically include all the links to the pages you have created.
+The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap>. You can see the example sitemap feed over [here](https://www.amitmerchant.com/reverie/sitemap).
 
----
+## The name?
 
-### Disqus Comments
+reverie - _a state of being pleasantly lost in one's thoughts; a daydream._<br><sup>/ˈrɛv(ə)ri/</sup> 
 
-Maxima Theme comes with Disqus comments enabled.
 
-Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
+## License
 
-```js
-s.src = '//aspirethemes-demo.disqus.com/embed.js';
-```
-
-So, if your Disqus shortname is `exampleone`, the final code above should be
-
-```js
-s.src = '//exampleone.disqus.com/embed.js';
-```
-
-That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
-
-And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
-
----
-
-### Google Analytics
-
-To integrate Google Analytics, open `_includes/analytics.html`, and add your Google Analytics code.
-
-### Social Media Links
-
-Social media links included in `_includes/footer.html` file.
-
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
-
-Twitter
-
-```html
-<span data-icon='ei-sc-twitter' data-size='s'></span>
-```
-
-Facebook
-
-```html
-<span data-icon='ei-sc-facebook' data-size='s'></span>
-```
-
-Instagram
-
-```html
-<span data-icon='ei-sc-instagram' data-size='s'></span>
-```
-
-Pinterest
-
-```html
-<span data-icon='ei-sc-pinterest' data-size='s'></span>
-```
-
-Vimeo
-
-```html
-<span data-icon='ei-sc-vimeo' data-size='s'></span>
-```
-
-Google Plus
-
-```html
-<span data-icon='ei-sc-google-plus' data-size='s'></span>
-```
-
-SoundCloud
-
-```html
-<span data-icon='ei-sc-soundcloud' data-size='s'></span>
-```
-
-Tumblr
-
-```html
-<span data-icon='ei-sc-tumblr' data-size='s'></span>
-```
-
-Youtube
-
-```html
-<span data-icon='ei-sc-youtube' data-size='s'></span>
-```
-
----
-
-### Update favicon
-
-You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
-
----
-
-👉 Visit [aspirehemes.com](http://aspirethemes.com) for more Jekyll, Ghost, and WordPress themes.
+MIT
