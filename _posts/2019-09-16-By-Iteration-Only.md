@@ -11,7 +11,7 @@ The September 2019 **Apple Event** left me underwhelmed - unsurprisingly.
 In another self-own from Apple, the company hyped up this event with a line in the press invitation “By Innovation Only” - but instead of *innovation* they showed mostly *iteration*.
 
 Yeah, the Watch is a little bit better. Yeah, the cheap iPad is a little bit better value. Yeah, the iPhones will take a bit better photos, will be a bit faster, and will have a bit nicer screen. That’s it, that’s all they’ve got this year.
-
+<!--more-->
 But then, what do you expect from a double-S cycle? Nothing groundbreaking.
 
 For me, the biggest news was the always-on display on the Watch (this feature alone almost got me to upgrade from my Series 4) and the much better battery life on the *Pro* iPhones (not enough to consider upgrading from XS Max, though). 

@@ -9,7 +9,7 @@ sharing:
 It started with the iPad. “When I get it, I will finally have the right tool for my writing.”
 
 I got it, I put a few entries on [my Polish personal finance blog](https://metafinanse.pl) and then my interest in it waned. I'm still using it as a note-taking tablet, a task-management tool, and overall “productivity” machine. And of course - content consumption.
-
+<!--more-->
 But less and less so for content creation.
 
 It doesnt’t feel like a right (or perhaps the better word is “perfect”) machine for that. For me, that is. You totally can do work on an iPad, and writing is probably the most fitting one for Apple’s tablet... but the (minor) limitations and annoyances spoil the experience for me. So I turned my gaze to the Mac. “Once I have a *real* computer, I will finally be able to write”, I kept saying to myself.

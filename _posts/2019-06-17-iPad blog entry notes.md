@@ -9,7 +9,7 @@ sharing:
 Let’s get this out of the way first. This is not an iPad blog. There will be iPad-related entries here (this is one of them), sure, but I plan to cover a much wider array of topics in general. So probably, this is not the best introduction to Quick Coffee. 
 
 But it’s something I need to get out of my system.
-
+<!--more-->
 See, I use iPad quite often. I’m not iPad-only by any means. Far from that. But after work, I consider myself iPad-primarily or iPad-first (having *constant* problems with my family iMac is helping a lot with that).
 
 **I have fun on the iPad.** And by that I don’t only mean *entertainment*, as such. Even though, iPad used to be (and by many, it still is) considered a content consumption device, first and foremost. But apart from that, I have fun by writing on the iPad. By trying out new apps and experimenting with new setups. By programming - if you can call it that - simple and less-simple workflows in the Shortcuts app. 
