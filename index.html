@@ -15,12 +15,14 @@ layout: default
       <div class="entry">
         {% if post.content contains '<!--more-->' %}
         {{ post.excerpt }}
-{% else %}
- {{ post.content }}
-{% endif %}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+{% else %}
+ {{ post.content }}
+  </div>
+{% endif %}
+      
     </article>
   {% endfor %}
 
